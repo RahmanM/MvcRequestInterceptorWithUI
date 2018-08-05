@@ -7,7 +7,8 @@
 - Ability to fire interceptors in specific orders (InterceptorRegisteration)
 - Strongly typed interceptor registeration (InterceptorRegisteration)
 
-```
+```csharp
+
 using Asp.Net.RequestInterceptors.Data;
 using Asp.Net.RequestInterceptors.Interceptors.Framework;
 using System.Web.Mvc;
