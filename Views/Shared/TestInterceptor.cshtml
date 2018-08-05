@@ -1,0 +1,15 @@
+﻿
+<h2>Test Interceptor!!!!!!</h2>
+<h2>This is the 2nd Interceptor!</h2>
+
+<p class="alert alert-info">
+    Clicking the Accept will turn off the interceptor so can navigate to other pages.
+</p>
+
+<p class="alert alert-danger">
+    Clicking the Reject will kick the interceptor, which will stay in the same page.
+</p>
+
+<button type="button" class="btn btn-success" onclick="location.href='@Url.Action("OnOk", "TestInterceptor")'">Accept</button>
+
+<button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("OnCancel", "TestInterceptor")'">Reject</button>

@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Welcome!</h1>
+    <p class="lead">You are logged in!</p>
+
+    <br />
+    <br />
+
+    <div class="lead">
+        <p class="alert alert-danger">
+            Clicking the Reject will kick the interceptor again and will show the interceptor. Cannot navigate to any other pages.
+        </p>
+
+        <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Cancel", "Home")'">Reject</button>
+    </div>
+</div>
+
+
